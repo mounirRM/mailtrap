@@ -1,0 +1,13 @@
+<template>
+    <div class="defaultbkg">
+    <p>Your actual sender display name is : <lightning-formatted-text value={userdisplayname} ></lightning-formatted-text></p>
+    <br>
+    <p>If you want to change the display Name for Emails please fill the field below: </p>
+    <lightning-input type="text" label="Your future display name" onchange={handledisplayname}></lightning-input>
+    <br>
+    <lightning-button variant="brand" label="Save" title="Primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+
+</div>
+
+
+</template>
